@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Денсилятор</title>
+        <link rel="stylesheet" href="./style.css" />
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <section class="container calc">
+            <header class="header">
+                <h1>Денсилятор</h1>
+                <p>*по сути обычный калькулятор,но Денсилятор</p>
+            </header>
+            <main class="content">
+                <div class="content__inputs">
+                    <input
+                        type="number"
+                        class="input1"
+                        placeholder="Введите первое число "
+                        id="input1"
+                        value="1"
+                    />
+                    <input
+                        type="number"
+                        class="input2"
+                        placeholder="Введите второе число "
+                        id="input2"
+                        value="1"
+                    />
+                </div>
+                <div class="content__btns">
+                    <button class="btn-plus content__btn" id="plus">+</button>
+                    <button class="btn-minus content__btn" id="minus">-</button>
+                    <button class="btn-multiply content__btn" id="multiply">*
+                    </button>
+                    <button class="btn-divide content__btn" id="divide">
+                        /
+                    </button>
+                    <button class="btn-calculate" id="calculate">
+                        Вычислить
+                    </button>
+                </div>
+            </main>
+            <footer class="footer">
+                <h1>Результат:</h1>
+                <p class="footer__result" id="result"></p>
+            </footer>
+        </section>
+    </body>
+</html>
