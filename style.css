@@ -128,7 +128,7 @@ body {
     padding: 10px;
     border-radius: 10px;
 }
-.content__inputs input:focus{
+.content__inputs input:focus {
     box-shadow: 4px 4px 16px rgba(149, 5, 193, 0.704);
 }
 .content__btns {
@@ -144,7 +144,7 @@ body {
     font-size: 40px;
     border-radius: 10px;
 }
-.content__btns button:active{
+.content__btns button:active {
     opacity: 0.8;
 }
 .btn-calculate {
@@ -162,24 +162,48 @@ body {
 .btn-divide {
     background: rgb(249, 249, 143);
 }
-.btn-calculate{
+.btn-calculate {
     background: rgb(244, 199, 94);
 }
 
-.footer{
+.footer {
     margin: 0 auto;
     width: 98%;
     border-radius: 10px;
     min-height: 130px;
     background: white;
 }
-.footer h1{
+.footer h1 {
     font-size: 45px;
     color: grey;
     margin-bottom: 20px;
 }
-.footer__result{
+.footer__result {
     font-size: 40px;
     font-weight: 700;
     color: black;
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 35px;
+    }
+    .header p {
+        font-size: 14px;
+    }
+    .content__inputs input{
+        font-size: 14px;
+    }
+    .content__btns button{
+        font-size: 20px;
+    }
+    .footer{
+        min-height:100px
+    }
+    .footer h1{
+        font-size: 25px;
+    }
+    .footer__result{
+        font-size: 22px;
+    }
 }
